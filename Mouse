@@ -1,0 +1,29 @@
+package TrabalhoG1;
+
+public class Mouse {
+    
+    public String marca;
+    public String cor;
+    public float comprimentoCabo;
+    public boolean wireless;
+    
+    public Mouse(){}
+
+		public Mouse(String marca, String cor, float comprimentoCabo, boolean wireless){
+
+        this.marca = marca;
+        this.cor = cor;
+        this.comprimentoCabo = comprimentoCabo;
+        this.wireless = wireless;
+    }
+        public void wifion(){
+
+        this.wireless = true;
+    }
+    
+        public void wifioff(){
+
+        this.wireless = false;
+    }
+
+}
